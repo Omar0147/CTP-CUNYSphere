@@ -6,7 +6,6 @@ function Login() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Here you would handle the login logic, possibly sending a request to your backend
     console.log('Login with:', email, password);
   };
 
